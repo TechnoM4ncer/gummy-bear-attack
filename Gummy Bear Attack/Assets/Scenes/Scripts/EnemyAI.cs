@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
 
     void OnCollisionEnter(Collision collInfo) {
         
-        if (collInfo.gameObject.tag == "Player") {
+        if (collInfo.gameObject.tag == "Player" || collInfo.gameObject.tag == "Projectile") {
             Destroy(gameObject);
         }
     }
