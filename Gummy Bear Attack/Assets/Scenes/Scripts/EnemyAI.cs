@@ -8,6 +8,10 @@ public class EnemyAI : MonoBehaviour
 
     public float moveSpeed = 3;
 
+    void Start() {
+        player = GameObject.FindWithTag("Player").transform;
+    }
+
     void FixedUpdate()
     {
         transform.LookAt(player);
