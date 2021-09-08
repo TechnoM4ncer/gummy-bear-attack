@@ -303,6 +303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 835380020}
   moveSpeed: 25
+  xRange: 11.5
+  zRange: 11.5
 --- !u!136 &835380023
 CapsuleCollider:
   m_ObjectHideFlags: 0
