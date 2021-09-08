@@ -287,7 +287,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 36
   m_CollisionDetection: 0
 --- !u!114 &835380021
 MonoBehaviour:
@@ -302,9 +302,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 835380020}
-  moveSpeed: 25
-  xRange: 11.5
-  zRange: 11.5
+  moveSpeed: 5
+  xRange: 14
+  zRange: 14
+  fireElapsed: 0
+  fireDelay: 0.2
   projectile: {fileID: 789023436705685464, guid: 030f60482e711b94b9fa670af4b91114, type: 3}
 --- !u!136 &835380023
 CapsuleCollider:
